@@ -19,6 +19,8 @@ body{
     min-height: 100vh;       /* Nuevo: Asegura que el body mida toda la pantalla */
     margin: 0;
     padding: 90px 0px 0px;
+    
+    
 }
    
 
@@ -84,9 +86,19 @@ header{
 }
 
 h2{
-    color: brown;
-    margin-top: 10px;
+   color: #FFE81F; /* Color icónico para títulos */
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
 }
+p{
+    
+    color: #F0F0F0; /* Blanco suave para que sea fácil de leer */
+    line-height: 1.6;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro sutil para legibilidad */
+    padding: 10px;
+    border-radius: 5px;
+}
+
 
 main{
     flex: 1;
@@ -153,6 +165,7 @@ padding-top: 70px;
     
 
 }
+
 
 .nav-links a:hover::after{
     background: none;
